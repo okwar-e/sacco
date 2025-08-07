@@ -1,5 +1,5 @@
 // app/page.tsx
-export default function Home() {
+export default function DashboardPage() {
   return (
     <div className="space-y-6">
       <h2 className="text-2xl font-semibold text-gray-800">Overview</h2>
@@ -24,9 +24,9 @@ export default function Home() {
       <section>
         <h3 className="text-lg font-semibold text-gray-700 mb-2">Recent Activity</h3>
         <ul className="bg-white divide-y rounded shadow">
-          <li className="p-4 text-sm">Contributed KES 1,000 - Aug 2, 2025</li>
-          <li className="p-4 text-sm">Voted on Loan Proposal #12 - Aug 1, 2025</li>
-          <li className="p-4 text-sm">Repaid KES 500 - July 30, 2025</li>
+          <li className="p-4 text-sm">✅ Contributed KES 1,000 - Aug 2, 2025</li>
+          <li className="p-4 text-sm">🗳️ Voted on Loan Proposal #12 - Aug 1, 2025</li>
+          <li className="p-4 text-sm">💸 Repaid KES 500 - July 30, 2025</li>
         </ul>
       </section>
     </div>
